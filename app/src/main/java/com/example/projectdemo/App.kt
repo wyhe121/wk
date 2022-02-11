@@ -19,7 +19,7 @@ class App : Application() {
     override fun onCreate() {
         super.onCreate()
          mApplication=applicationContext
-
+             //as
         UMConfigure.preInit(mApplication,"6205037ce0f9bb492bfd9f15","")
         CrashReport.initCrashReport(mApplication, "6f755ffade", true);
 
