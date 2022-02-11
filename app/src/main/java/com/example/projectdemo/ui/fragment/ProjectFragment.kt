@@ -1,6 +1,7 @@
 package com.example.projectdemo.ui.fragment
 
 import android.os.Bundle
+import android.util.Log
 import androidx.fragment.app.Fragment
 import com.example.projectdemo.R
 import com.example.projectdemo.databinding.FragmentProjectBinding
@@ -38,7 +39,10 @@ class ProjectFragment:BaseFragment<ProjectViewModel,FragmentProjectBinding>() {
             titleArray.add("$i")
         }
     }
-
+   fun test()
+   {
+       Log.d("a3","adada")
+   }
     override fun createObserver() {
 
     }
