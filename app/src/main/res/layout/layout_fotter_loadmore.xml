@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:adnroid="http://schemas.android.com/apk/res/android">
+
+    <ProgressBar
+        adnroid:id="@+id/loading_view"
+        adnroid:layout_width="24dp"
+        adnroid:layout_height="24dp"
+        adnroid:visibility="visible"
+        />
+    <TextView
+        adnroid:id="@+id/tv_message"
+        adnroid:layout_width="wrap_content"
+        adnroid:layout_height="wrap_content"
+        adnroid:gravity="center_vertical"
+        adnroid:layout_marginLeft="6dp"
+        adnroid:textColor="@color/colorGray"
+        adnroid:textSize="13dp"
+        adnroid:visibility="gone"
+        />
+</merge>

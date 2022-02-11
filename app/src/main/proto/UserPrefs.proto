@@ -1,0 +1,16 @@
+// 固定的，有proto2，但是proto3更好
+syntax="proto3";
+
+// 格式：包名 + . + 文件名
+option java_package = "com.example.projectdemo.protobuf";
+
+// 格式：字段类型 + 字段名称 + 字段编号 = 编号（唯一）
+message UserPreferences {
+    string query = 1; // String类型
+    int32 page_number = 2; // int类型 sint32
+    int64 result_per_page = 3;// long类型 sint64
+    bool age = 4;// boolean类型
+    double student_name = 5;// double类型
+    float student_fs = 6;// float类型
+    bytes student_fs_dd = 7;// bytes类型
+}
