@@ -33,7 +33,7 @@ class ProjectFragment:BaseFragment<ProjectViewModel,FragmentProjectBinding>() {
 
     override fun initData() {
         for (i in 0..10) {
-
+//hhhhhhhhhhhhhhhhhhhhh
             fragmentList.add(ProjectFragmentChildren())
             titleArray.add("$i")
         }
