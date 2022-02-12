@@ -48,10 +48,17 @@ class ProjectFragment:BaseFragment<ProjectViewModel,FragmentProjectBinding>() {
         Log.d("a3","adada")
     }
     fun test3()
-    {   
-        Log.d("a3","玛拉顿")
+    {
+        Log.d("a3","3")
     }
-  
+    fun test4()
+    {
+        Log.d("a3","4")
+    }
+    fun test5()
+    {
+        Log.d("a3","5")
+    }
 
     override fun createObserver() {
 
