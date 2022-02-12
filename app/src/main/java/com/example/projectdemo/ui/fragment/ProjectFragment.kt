@@ -48,8 +48,8 @@ class ProjectFragment:BaseFragment<ProjectViewModel,FragmentProjectBinding>() {
         Log.d("a3","adada")
     }
     fun test3()
-    {
-        Log.d("a3","adada")
+    {   
+        Log.d("a3","玛拉顿")
     }
   
 
