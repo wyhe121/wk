@@ -34,7 +34,7 @@ class ProjectFragment:BaseFragment<ProjectViewModel,FragmentProjectBinding>() {
 
     override fun initData() {
         for (i in 0..10) {
-
+//hhhhhhhhhhhhhhhhhhhhh
             fragmentList.add(ProjectFragmentChildren())
             titleArray.add("$i")
         }
@@ -45,23 +45,27 @@ class ProjectFragment:BaseFragment<ProjectViewModel,FragmentProjectBinding>() {
    }
     fun test2()
     {
-        Log.d("a3","啊啊啊")
+        Log.d("a3","adada")
     }
     fun test3()
     {
-        Log.d("a3","3")
+        Log.d("a3","adada")
     }
     fun test4()
     {
-        Log.d("a3","4")
+        Log.d("a3","adada")
     }
     fun test5()
     {
-        Log.d("a3","5")
+        Log.d("a3","adada")
     }
     fun test6()
     {
-        Log.d("a3","6")
+        Log.d("a3","666")
+    }
+    fun test7()
+    {
+        Log.d("a3","777")
     }
     override fun createObserver() {
 
