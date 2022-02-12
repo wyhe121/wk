@@ -45,7 +45,7 @@ class ProjectFragment:BaseFragment<ProjectViewModel,FragmentProjectBinding>() {
    }
     fun test2()
     {
-        Log.d("a3","adada")
+        Log.d("a3","啊啊啊")
     }
     fun test3()
     {
@@ -59,7 +59,10 @@ class ProjectFragment:BaseFragment<ProjectViewModel,FragmentProjectBinding>() {
     {
         Log.d("a3","5")
     }
-
+    fun test6()
+    {
+        Log.d("a3","6")
+    }
     override fun createObserver() {
 
     }
